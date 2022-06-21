@@ -26,7 +26,7 @@ const NavbarModal = ({ show }) => {
                   initial='initial'
                   animate='animate'
                   exit='exit'
-                  className='w-screen h-screen bg-dark/70 backdrop-blur-xl fixed flex justify-center items-center'
+                  className='w-screen h-screen bg-vom/10 backdrop-blur-xl fixed flex justify-center items-center'
                >
                   <MenuItems />
                </motion.div>

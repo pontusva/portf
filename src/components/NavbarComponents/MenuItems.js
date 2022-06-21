@@ -6,7 +6,7 @@ const MenuItems = () => {
       <>
          <>
             <div>
-               <ul className='text-6xl flex md:flex-row md:space-x-10 md:space-y-0 space-y-5 flex-col font-bebas text-cream'>
+               <ul className='text-6xl flex md:flex-row md:space-x-10 md:space-y-0 space-y-5 flex-col font-bebas text-dark border-b-8 border-cream'>
                   <li>Home</li>
                   <li>Projects</li>
                   <li>About</li>

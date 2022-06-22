@@ -15,7 +15,8 @@ module.exports = {
         'cream': '#edf5e1',
         'dark': '#1a1a1d',
         'smoothred': '#6f2232',
-        'vomblue': "#05386b"
+        'vomblue': "#05386b",
+        'greenish': '#379683',
       }
     },
   },

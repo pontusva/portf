@@ -13,40 +13,50 @@ const Icons = () => {
 
 
    return (
-      <>
-         <NavbarModal show={show}></NavbarModal>
-            <AnimatePresence>
-               {show && (
-                  <motion.div
-                     initial={{ opacity: 0,}}
-                     animate={{ opacity: 1, transition: {duration: 3, type: 'tween', stiffness: 50} }}
-                     exit={{ opacity: 0, transition: {duration: 0} }}
-                  >
-                     <MenuIcon
-                        onClick={showing}
-                        className='w-16 text-cream z-10 absolute top-6 right-5'
-                     />
-                  </motion.div>
-               )}
-            </AnimatePresence>
+		<>
+			<NavbarModal show={show} showing={showing}></NavbarModal>
+			<AnimatePresence>
+				{show && (
+					<motion.div
+						initial={{ opacity: 0 }}
+						animate={{
+							opacity: 1,
+							transition: {
+								duration: 3,
+								type: "tween",
+								stiffness: 50,
+							},
+						}}
+						exit={{ opacity: 0, transition: { duration: 0 } }}
+					>
+						<MenuIcon
+							onClick={showing}
+							className="w-14 text-cream z-10 absolute top-6 md:right-10 right-14 cursor-pointer"
+						/>
+					</motion.div>
+				)}
+			</AnimatePresence>
 
-            <AnimatePresence>
-               {!show && (
-                  <motion.div
-                     initial={{ opacity: 0 }}
-                     animate={{ opacity: 1 }}
-                     transition={{type: 'tween', stiffness: 5, duration: 0.5}}
-                     exit={{ opacity: 0 }}
-                  >
-                     <XIcon
-                        onClick={showing}
-                        className='w-16 z-10 text-smoothred absolute top-6 right-10' 
-                     />
-                  </motion.div>
-               )}
-            </AnimatePresence>
-         
-      </>
+			<AnimatePresence>
+				{!show && (
+					<motion.div
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1}}
+						transition={{
+							type: "tween",
+							stiffness: 5,
+							duration: 0.7,
+						}}
+						exit={{ opacity: 0 }}
+					>
+						<XIcon
+							onClick={showing}
+							className="w-14 z-50 text-cream absolute top-6 right-10 cursor-pointer"
+						/>
+					</motion.div>
+				)}
+			</AnimatePresence>
+		</>
    );
 };
 

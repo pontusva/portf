@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const StaggerText = () => {
+const StaggerAstro = () => {
 	const sentence = {
 		hidden: {
 			opacity: 1,
@@ -27,9 +27,7 @@ const StaggerText = () => {
 		},
 	};
 
-	const text = "Pontus Abrahamsson,";
-	const text2 = "Web Developer.";
-
+    const astro = "Astrological Calling";
 	return (
 		<>
 			<div>
@@ -37,23 +35,11 @@ const StaggerText = () => {
 					variants={sentence}
 					initial="hidden"
 					animate="visible"
-					className="md:text-5xl text-3xl text-center font-bold font-montserrat text-cream"
+					className="md:text-4xl text-3xl text-center font-bold font-montserrat pb-5 text-greenish"
 				>
-					{text.split("").map((char, index) => {
+					{astro.split("").map((char, index) => {
 						return (
 							<motion.span
-								key={char + "-" + index}
-								variants={letter}
-							>
-								{char}
-							</motion.span>
-						);
-					})}
-					<br />
-					{text2.split("").map((char, index) => {
-						return (
-							<motion.span
-								className="text-vom"
 								key={char + "-" + index}
 								variants={letter}
 							>
@@ -67,4 +53,4 @@ const StaggerText = () => {
 	);
 };
 
-export default StaggerText;
+export default StaggerAstro;

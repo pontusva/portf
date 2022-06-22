@@ -5,7 +5,7 @@ const About = () => {
 		<>
 			<div className="flex flex-col space-y-5 justify-center items-center h-screen bg-vomblue text-cream font-montserrat">
 				<h1 className="md:text-4xl text-3xl uppercase text-greenish">About</h1>
-				<p className="text-cream w-96 text-justify">
+				<p className="text-cream md:w-96 md:p-0 w-84 p-5  text-justify">
 					Hi, my name is Pontus and I am a web developer from Sweden. During the year that has passed
 					I have been learning web-development. All of this
 					because of a friend that said I should give it a go, I

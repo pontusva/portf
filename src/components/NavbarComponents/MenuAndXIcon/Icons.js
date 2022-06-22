@@ -31,7 +31,7 @@ const Icons = () => {
 					>
 						<MenuIcon
 							onClick={showing}
-							className="w-14 text-cream z-10 absolute top-6 md:right-10 right-14 cursor-pointer"
+							className="w-14 text-cream z-10 absolute top-6 md:right-10 right-12 cursor-pointer"
 						/>
 					</motion.div>
 				)}
@@ -51,7 +51,7 @@ const Icons = () => {
 					>
 						<XIcon
 							onClick={showing}
-							className="w-14 z-50 text-cream absolute top-6 right-10 cursor-pointer"
+							className="w-14 z-50 text-cream absolute top-6 right-12 cursor-pointer"
 						/>
 					</motion.div>
 				)}

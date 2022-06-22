@@ -28,7 +28,7 @@ const AstroCalling = () => {
 									stiffness: 200,
 								},
 							}}
-							className="w-96 h-auto rounded-xl "
+							className="md:w-96 md:h-auto md:p-0 rounded-xl p-5 object-contain "
 							src={Calling}
 							alt="astrocalling"
 						/>
@@ -39,7 +39,7 @@ const AstroCalling = () => {
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ delay: 1.3, duration: 2 }}
-						className="w-96 text-justify font-montserrat text-cream"
+						className="md:w-96 p-5 text-justify font-montserrat text-cream"
 					>
 						Website where you can read your horoscope and draw
 						tarot-cards. Built with React, framer-motion

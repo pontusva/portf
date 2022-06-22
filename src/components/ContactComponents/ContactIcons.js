@@ -75,7 +75,8 @@ const ContactIcons = () => {
 					initial="initial"
 					animate="animate"
 					whileHover="whileHover"
-					href="#"
+					target="_blank"
+					href="https://www.instagram.com/pontwah/"
 				>
 					<FaInstagram className="w-10 h-10 text-greenish" />
 				</motion.a>

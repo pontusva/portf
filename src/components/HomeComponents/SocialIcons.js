@@ -78,7 +78,8 @@ const SocialIcons = () => {
 					initial="initial"
 					animate="animate"
 					whileHover="whileHover"
-					href="#"
+					href="https://www.instagram.com/pontwah/"
+					target="_blank"
 				>
 					<FaInstagram className="w-10 h-10 text-greenish" />
 				</motion.a>

@@ -3,6 +3,7 @@ import Home from "./components/HomeComponents/Home";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/ContactComponents/Contact";
 import About from "./components/AboutComponents/About";
+import ReactGA4 from "react-ga4";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 ReactGA4.initialize("G-JM43LZGCK0");

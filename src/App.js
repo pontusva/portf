@@ -5,6 +5,8 @@ import Contact from "./components/ContactComponents/Contact";
 import About from "./components/AboutComponents/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+ReactGA4.initialize("G-JM43LZGCK0");
+
 function App() {
 	return (
 		<>

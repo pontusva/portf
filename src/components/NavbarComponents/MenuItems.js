@@ -34,7 +34,7 @@ const MenuItems = ({ show, showing }) => {
 								Projects
 							</motion.li>
 						</Link>
-						<Link to='/about'>
+						<Link to="/about">
 							<motion.li
 								whileHover={{ scale: 1.1, y: -4 }}
 								whileTap={{ scale: 0.75 }}

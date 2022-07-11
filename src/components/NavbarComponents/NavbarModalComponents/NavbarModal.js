@@ -26,7 +26,7 @@ const NavbarModal = ({ show, showing }) => {
                   initial='initial'
                   animate='animate'
                   exit='exit'
-                  className='w-screen h-screen bg-vom/10 backdrop-blur-xl fixed flex justify-center items-center z-10'
+                  className='z-50 w-screen h-screen bg-vom/10 backdrop-blur-xl fixed flex justify-center items-center'
                >
                   <MenuItems show={show} showing={showing}/>
                </motion.div>
